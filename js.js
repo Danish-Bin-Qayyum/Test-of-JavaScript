@@ -19,7 +19,7 @@ function fetchuserData(userid,callback) { // delaring normal function
     } else {
         callback("user not fiund", null)
     }
-    },2000);
+    },2000);//
 
 };
 // callback function
