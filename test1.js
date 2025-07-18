@@ -31,18 +31,17 @@ console.log(animals.includes("lion"));
  // Q. 1
 /* it is an array inbuilt method which add the element at the end of the array*/
  let a = [1,2,3,4,5,6]
- console.log(a.push());//7
+ console.log(a.push(7));//7
 
  // Q 2
  /* the shift method is use to remove the first element in array*/
   let arr= [1,2,3,4,5,6]
-  console.log(arr.shift);//1
+  console.log(arr.shift());//1
 
   // Q 3
   /*the lengh property of array gives the number of array present in a array*/
   let arrr = [1,2,3,4,5,6]
   console.log(arrr.length);//6
-
   // Q 4
   /* the includes method help us to find the specific element in array*/
   let arrrr = [1,2,3,4,5,6]
