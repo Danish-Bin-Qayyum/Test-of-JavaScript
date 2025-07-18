@@ -30,10 +30,6 @@ let result2 = nums.some((e) => e % 2 !== 0);
 console.log(result1, result2); 
 "*/ 
 
-
-
-console.log(fruits.reverse()); 
-In
 let a = [2,2,2,2,2,2]
  let b = a.every((e) => e % 2 === 0);
  console.log(b);// true
