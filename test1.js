@@ -38,7 +38,7 @@ console.log(animals.includes("lion"));
  /* the shift method is use to remove the first element in array*/
   let arr= [1,2,3,4,5,6]
   arr.shift()
-  console.log(arr);[2,3,4,5,6]
+  console.log(arr);//[2,3,4,5,6]
 
   // Q 3
   /*the lengh property of array gives the number of array present in a array*/
@@ -47,7 +47,8 @@ console.log(animals.includes("lion"));
   // Q 4
   /* the includes method help us to find the specific element in array*/
   let arrrr = [1,2,3,4,5,6]
-  console.log(arrr.includes(2))//true
+  arrr.includes(2)
+  console.log(arrrr)//true
 
   // Q 5 
   // the output is [1,2]
