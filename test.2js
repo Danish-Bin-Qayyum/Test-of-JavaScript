@@ -29,7 +29,7 @@ let result1 = nums.every((e) => e % 2 === 0);
 let result2 = nums.some((e) => e % 2 !== 0); 
 console.log(result1, result2); 
 "*/ 
-
+//  Q 1 the every() check all the element and give answer in true and false
 let a = [2,2,2,2,2,2]
  let b = a.every((e) => e % 2 === 0);
  console.log(b);// true
