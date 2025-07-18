@@ -89,3 +89,9 @@ const num = [2, 4, 6, 7, 8];
   let p=o.indexOf('mango')//
   console.log(o);//['orange','pear','mango','banana','apple']
   console.log(p);//2
+
+  // Q 10
+  //"""Check if all numbers in the array are greater than 0 using every() for the array:
+  const nums1 = [1, 5, 10, 20]; 
+   let n2 = nums1.every((e)=>e>0)
+   console.log(n2);//true
