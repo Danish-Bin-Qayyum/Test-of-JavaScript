@@ -34,7 +34,7 @@ let a = [2,2,2,2,2,2]
  let b = a.every((e) => e % 2 === 0);
  console.log(b);// true
 
-// Q 2 the find is the method which chect one element which pass condition
+// Q 2 the find is the method which chect first one element which pass condition and return it
 // Q 3 the will turn only first element if all the element satisfies condition
 let c= [3,2,6,4,10,12]
  let h = c.find((e) => e % 2 === 0);
