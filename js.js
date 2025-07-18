@@ -44,6 +44,14 @@
  let n =arrrrrrr.map((e)=>e*2)
   console.log(n);
 
+  // Q 10 ye quetion ma nai deth kr kya hai
+  let  arrrrrrrr = [1,2,2,3,4,5,5,5,6,7,7,8,9]
+  let m=[...new Set(arrrrrrrr)]
+  console.log(m);
+
+
+
+
 
 
 
