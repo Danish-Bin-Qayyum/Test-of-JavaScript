@@ -35,6 +35,7 @@ let a = [2,2,2,2,2,2]
  console.log(b);// true
 
 // Q 2 the find is the method which chect first one element which pass condition and return it
+
 // Q 3 the will turn only first element if all the element satisfies condition
 let c= [3,2,6,4,10,12]
  let h = c.find((e) => e % 2 === 0);
@@ -42,7 +43,7 @@ let c= [3,2,6,4,10,12]
 
  // Q 4 the difference between indexof and lastindex is
  // indexof: it check the element of array from index 1 to onword
- // lastindex : it check the element of array from last index to onword
+ // lastindex : it check the element of array from last index to upword
 
  // Q 5
  // output is ['pear','mango','banana','apple']
