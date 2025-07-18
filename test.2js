@@ -49,7 +49,7 @@ let c= [3,2,6,4,10,12]
  // output is ['pear','mango','banana','apple']
 
  // Q 6
- //In the example for lastIndexOf() the code returns 1. because the lastindexof check the element from the last index to onword
+ //In the example for lastIndexOf() the code returns 1. because the lastindexof check the element from the last index to upword
 
  // Q 7
  // find(): it chect the the first element which pass the condition and return it 
@@ -69,7 +69,7 @@ let c= [3,2,6,4,10,12]
 console.log(arr.sort());//['123test','canon','imac','macbook','samsung']
 
 // 9 
-// the every method chect all the element and give true but in this case it will false because all element is not satisfy the condition
+// the every method check all the element and give true but in this case it will false because all element is not satisfy the condition
 // the some check those condition which satisfy the condition but in this case the output is true one element if satisfy the condition
 
 
