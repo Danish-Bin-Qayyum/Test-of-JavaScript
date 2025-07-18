@@ -1,34 +1,7 @@
-2	/*"What does the every() method do in JavaScript arrays, and what does it return?
 
-Which array method checks if at least one element in an array passes a test?
 
-What does the find() method return if no element satisfies the condition?
-
-What is the difference between indexOf() and lastIndexOf()?
-
-What will be the output of the following code?
-let fruits = ['apple', 'banana', 'mango', 'pear']; 
 console.log(fruits.reverse()); 
-In the example for lastIndexOf(), the code returns 1. Why is this result incorrect based on the array, and what should the correct code be to find the last occurrence of ""mango""?
-
-What is the difference between find() and filter() when searching an array? Give an example using the total array from the file to explain.
-
-What will be logged by the following code, and why?
-let arr = ['macbook','imac','samsung','canon','123test']; 
-console.log(arr.sort()); 
-How can you use every() and some() together to check if all elements in an array are numbers and if any number is even? Write a code snippet.
-
-Look at the following code and explain the output:
-
-javascript
-Copy
-Edit
-let nums = [2, 4, 6, 9, 11]; 
-let result1 = nums.every((e) => e % 2 === 0); 
-let result2 = nums.some((e) => e % 2 !== 0); 
-console.log(result1, result2); 
-"*/
-/* it is an inbuilt function that chect the every element of the array and return true ant false */
+In
 let a = [2,2,2,2,2,2]
  let b = a.every((e) => e % 2 === 0);
  console.log(b);// true
