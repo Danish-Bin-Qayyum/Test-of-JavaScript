@@ -1,3 +1,32 @@
+/*What does the push() method do in JavaScript arrays?
+
+Which method is used to remove the first element of an array?
+
+What does the length property of an array return?
+
+How can you check if a specific element exists in an array?
+
+What will the following code output?
+let arr = [1, 2, 3];
+arr.pop();
+console.log(arr);
+
+How does the splice() method work? Provide an example that removes 2 elements starting from index 1 and replaces them with "apple" and "orange".
+
+What is the difference between slice() and splice() in JavaScript? Explain with examples.
+
+Given the array below, write a one-liner to remove all duplicates and return a new array:
+const nums = [1,2,2,3,4,4,5,5,5,6];
+
+Why does forEach() not return a new array, and how would you modify the example to create a new array of doubled values?
+(Hint: Think about map() vs. forEach().)
+
+Look at the following code. What will be logged, and why?
+let animals = ["dog", "cat", "fish", "bird"];
+console.log(animals.indexOf("cat"));
+console.log(animals.includes("lion"));
+*/
+
 
  // Q. 1
 /* it is an array inbuilt method which add the element at the end of the array*/
