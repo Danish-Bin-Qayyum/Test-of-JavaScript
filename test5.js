@@ -33,12 +33,12 @@ const people = [
 
 //Q 1 )Write a code using map() to convert all city names in the array ['New York', 'London', 'Paris'] to uppercase.
 const  ar = ['new York', 'london', 'paris']
-let f1 = ar.map((e)=>{return e.toUpperCase()})
+let f1 = ar.map((e)=>e.toUpperCase())
 console.log(f1);//['NEW YORK','LONDON','PAEIS']
 
 //Q 2 )Create a map() function to get the length of each word in the array ['apple', 'banana', 'cherry'].
  let arr= ['dog', 'cat', 'elephant', 'mouse']
- let f2 = arr.map((e)=>{return e.length})
+ let f2 = arr.map((e)=>e.length)
  console.log(f2); // output [3,2,8,5]
 
 //Q 3 )Using filter(), create a function that filters out the numbers greater than 10 from the array [4, 15, 9, 20, 5].
@@ -52,7 +52,7 @@ const people = [
   {name: 'Jane', age: 40},
   {name: 'Smith', age: 50}
 ];
-const pe=people.filter((e)=>{return e.age >=30})
+const pe=people.filter((e)=>e.age >=30)
 console.log(pe);//[{name: 'Jane', age: 40},{name: 'Smith', age: 50}]
 
 //Q 5 )Write a reduce() function that calculates the total age of people in this array:
@@ -61,12 +61,12 @@ const peop = [
   {name: 'Jane', age: 30},
   {name: 'Smith', age: 45}
 ];
-let m = peop.reduce((acc, b)=> { return acc+b.age},0)
+let m = peop.reduce((acc, b)=>acc+b.age,0)
 console.log(m);//100
 
 //Q 6 )Use map() to convert the array ['apple', 'banana', 'cherry'] into an array of objects, where each object contains the fruitName and its length.
 let arrr= ['apple', 'banana', 'cherry'] 
- let f5 = arrr.map((e)=>{return `${e}`+` : length of element ${e.length}`})
+ let f5 = arrr.map((e)=>{return `${e} : length of element ${e.length}`})
  console.log(f5);
 
  //Q 8 )Use filter() to extract all people from the array who are under 40 and sort the result alphabetically by their name.
@@ -74,13 +74,11 @@ const p = [
   {name: 'aohn', age: 25},
   {name: 'Jane', age: 30},
   {name: 'Smith', age: 4},
-
-
   {name: 'gmith', age: 20},
   {name: 'Smith', age: 35},
   {name: 'imith', age: 38}
 ]
- let a = p.filter((e)=>{return e.age>40})
+ let a = p.filter((e)=>e.age>40)
  let b = a.sort((a,b)=>a.name.localeCompare(b.name))
 console.log(b);
 
