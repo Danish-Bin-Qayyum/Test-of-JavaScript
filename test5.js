@@ -72,20 +72,20 @@ const p = [
   {name: 'Smith', age: 35},
   {name: 'imith', age: 38}
 ]
- let a = p.filter((e)=>e.age>40)
+ let a = p.filter(e=>{return e.age<40})
 console.log(a.sort((a,b)=>a.name.localeCompare(b.name)));
 
 //Q 9 ) Use map() and filter() together to get the sum of the lengths of all words in the array  ['dog', 'cat', 'elephant', 'mouse'], but only for words that have more than 3 characters.
 let arrrr= ['dog', 'cat', 'elephant', 'mouse']
- let f9 = arrrr.map((e)=>e.length)
- let d9 = f9.filter((e)=>e>3)
+ let f9 = arrrr.map(e=>e.length)
+ let d9 = f9.filter(e=>e>3)
 console.log(d9.reduce((a,b)=>a+b));//13
 
 //Q 10)  Write a function that uses reduce() to find the oldest person in the list of people. You need to return the name of the oldest person. Example input:
 // ye ChatGPT ka code hai
 function findOldestPersonName(people) {
   const oldest = people.reduce((oldestSoFar, currentPerson) => {
-    return (currentPerson.age > oldestSoFar.age) ?  currentPerson : oldestSoFar;
+  return (currentPerson.age > oldestSoFar.age) ?  currentPerson : oldestSoFar;
   });
   return oldest.name;
 }
