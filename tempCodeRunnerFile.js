@@ -1,1 +1,1 @@
-console.log(o);
+o

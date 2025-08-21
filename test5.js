@@ -32,16 +32,13 @@ const people = [
 */ 
 
 //Q 1 )Write a code using map() to convert all city names in the array ['New York', 'London', 'Paris'] to uppercase.
-const  ar = ['new York', 'london', 'paris']
-console.log(ar.map((e)=>e.toUpperCase()));//['NEW YORK','LONDON','PAEIS']
+console.log(ar = ['new York', 'london', 'paris'].map((e)=>e.toUpperCase()));//['NEW YORK','LONDON','PAEIS']
 
 //Q 2 )Create a map() function to get the length of each word in the array ['apple', 'banana', 'cherry'].
- let arr= ['dog', 'cat', 'elephant', 'mouse']
- console.log(arr.map((e)=>e.length)); // output [3,2,8,5]
+ console.log(arrr= ['dog', 'cat', 'elephant', 'mouse'].map((e)=>e.length)); // output [3,2,8,5]
 
 //Q 3 )Using filter(), create a function that filters out the numbers greater than 10 from the array [4, 15, 9, 20, 5].
-const a1 =[4, 15, 9, 20, 5]
-console.log(a1.filter((e)=>e>10));//[15,20]
+console.log(a1=[4, 15, 9, 20, 5].filter((e)=>e>10));//[15,20]
 
 //Q 4 )Given an array of people with name and age (like the code you provided), use filter() to return a list of people who are 30 years or older.
 const people = [
