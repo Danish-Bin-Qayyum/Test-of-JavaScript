@@ -3,10 +3,15 @@
 
 
 
+    const users = [
+      { id: 1, name: 'Alice', age: 30 },
+      { id: 2, name: 'Bob', age: 24 },
+      { id: 3, name: 'Charlie', age: 35 }
+    ];
 
 
 
-
-let arr =[1,"", , NaN, ,-2.5, ,3, ,4,5]
-let b=arr.map(a=>typeof a)//.filter(a=>a).find(a=>a=="number")
-console.log(b);
+    const processedUsers = users.map(user => ({
+      ...user,a : user.age > 25
+    }));
+    console.log(processedUsers);
